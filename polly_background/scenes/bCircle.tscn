@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://btlfaciyy02cf"]
+
+[ext_resource type="Script" path="res://polly_background/scripts/bCircle.gd" id="1_py4fd"]
+
+[node name="BCircle" type="Area2D"]
+script = ExtResource("1_py4fd")
+radius = 10
+color = Color(0.65098, 0, 0.501961, 1)

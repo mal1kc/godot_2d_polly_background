@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7qhir3x278a"]
+
+[ext_resource type="PackedScene" uid="uid://j1ha1c7hmjl5" path="res://polly_background/scenes/PollyBackground.tscn" id="1_uunm3"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="PollyBackground" parent="." instance=ExtResource("1_uunm3")]
+number_of_circles = 300
+
+[node name="Camera2D" type="Camera2D" parent="."]
